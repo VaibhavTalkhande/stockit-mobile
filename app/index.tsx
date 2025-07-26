@@ -21,6 +21,9 @@ export default function HomeScreen() {
         <Button title="Login" onPress={() => {
           router.push('/login');
         }} />
+        <Button title="Tabs" onPress={() => {
+            router.push('/(tabs)');
+          }} />
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />
